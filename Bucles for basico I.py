@@ -30,7 +30,22 @@ print(sum(numeros))
 for x in range (500000):
     if x % 2 == 1:
         print (x)
+        
+        
+#4¡Uf, Eso es bastante grande!: 
+# suma enteros impares de 0 a 500,000 e imprime la suma final.
+# otra forma de hacer el ejercicio
 
+numerosimpares = []
+x = 0
+for x in range (0,500000,1):
+    if x % 2 == 1:
+        numerosimpares.append(x)
+print (sum(numerosimpares))
+
+
+
+        
 #5Cuenta regresiva por cuatro : imprime números positivos del 2018 al 0, 
 # restando 4 en cada iteración.
 
