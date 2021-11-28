@@ -26,6 +26,7 @@ def a():
     print(10)
 
 #retorna 5 no se porque
+la identacion del print esta dentro y no reconoce la funcion.Si hubiese estado fuera,ahi reconoce el print
 
 #5
 def a():
